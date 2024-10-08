@@ -12,7 +12,7 @@ if ('Notification' in window) {
                 });
             }; */
 
-            // Set interval to show notification every 15 minutes (900000 milliseconds)
+            // Set interval to show notification every hour (3600000 milliseconds)
             setInterval(() => {
                 // Show notification
                 new Notification('Time to Drink Water!', {
@@ -20,7 +20,7 @@ if ('Notification' in window) {
                     icon: '/assets/images/water-bottle.png',
                     title: 'Drink Water Reminder'
                 });
-            }, 900000);
+            }, 3600000);
 
 
             // Show notification immediately
