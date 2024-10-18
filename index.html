@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Drink your watah bro</title>
-    <link rel="icon" type="image/x-icon" href="./assets/images/drop.png">
+    <title>BreakBuddy</title>
+    <link rel="icon" type="image/x-icon" href="./assets/images/favicon.png">
     <link rel="stylesheet" href="./css/styles.css">
     <script src="https://cdn.tailwindcss.com"></script>
 
@@ -15,18 +15,53 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
-
 </head>
 
 <body>
-    <div class="flex min-h-full flex-col justify-center px-6 py-12 lg:px-8 h-screen bg-[#00A9FF]">
-        <div class="relative isolate px-6 lg:px-8">
-            <div class="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
-                <div class="text-center">
-                    <h1 class="text-balance text-4xl tracking-wide sm:text-6xl text-white pacifico-regular">
-                        Stay cool. Drink water.
-                    </h1>
-                </div>
+    <div class="min-h-screen bg-white">
+        <div
+            class="mx-auto grid max-w-2xl grid-cols-1 items-center gap-x-8 gap-y-16 px-4 py-24 sm:px-6 sm:py-32 lg:max-w-7xl lg:grid-cols-2 lg:px-8">
+            <div>
+                <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl ">Small Breaks, Big Benefits!
+                </h2>
+                <!-- <p class="mt-4 text-gray-500">In our fast-paced world, it’s easy to get caught up in the hustle and
+                    forget to take a moment for ourselves. But small breaks can lead to big benefits for your mind and
+                    body. Whether it’s a quick stretch, a sip of water, or a refreshing walk, stepping away from your
+                    screen helps boost creativity, reduce stress, and enhance focus. So, take a moment to pause and
+                    recharge—your well-being and productivity will thank you!</p> -->
+                <p class="mt-4 text-gray-500"><span class="font-medium text-gray-600">BreakBuddy</span> is a web app
+                    that sends you gentle desktop notifications to remind you to take regular breaks. Designed to boost
+                    your productivity and well-being, it helps you recharge and maintain focus, ensuring you prioritize
+                    self-care throughout your workday. Stay refreshed and productive with BreakBuddy!</p>
+
+                <dl class="mt-16 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8">
+                    <div class="border-t border-gray-200 pt-4">
+                        <dt class="font-medium text-gray-900">Hydration Break</dt>
+                        <dd class="mt-2 text-sm text-gray-500">Take a moment to drink water, which can improve focus and
+                            energy</dd>
+                    </div>
+                    <div class="border-t border-gray-200 pt-4">
+                        <dt class="font-medium text-gray-900">Short Walks</dt>
+                        <dd class="mt-2 text-sm text-gray-500">A quick walk around the office or outside to get some
+                            fresh air</dd>
+                    </div>
+                    <div class="border-t border-gray-200 pt-4">
+                        <dt class="font-medium text-gray-900">Deep Breathing Exercises</dt>
+                        <dd class="mt-2 text-sm text-gray-500">Spend a minute focusing on deep breathing to calm your
+                            mind and reduce anxiety</dd>
+                    </div>
+                    <div class="border-t border-gray-200 pt-4">
+                        <dt class="font-medium text-gray-900">Stretching Routine</dt>
+                        <dd class="mt-2 text-sm text-gray-500">Engage in a quick stretching session to relieve tension
+                            in your neck, shoulders, and back</dd>
+                    </div>
+                </dl>
+            </div>
+            <div class="grid grid-cols-2 grid-rows-2 gap-4 sm:gap-6 lg:gap-8">
+                <img src="./assets/images/drink-water.jpg" alt="drink you water" class="rounded-lg bg-gray-100">
+                <img src="./assets/images/walking.jpg" alt="walking break" class="rounded-lg bg-gray-100">
+                <img src="./assets/images/breathing.jpg" alt="breathing exercises" class="rounded-lg bg-gray-100">
+                <img src="./assets/images/stretching.jpg" alt="stretching exercises" class="rounded-lg bg-gray-100">
             </div>
         </div>
     </div>
